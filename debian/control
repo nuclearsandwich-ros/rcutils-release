@@ -1,0 +1,12 @@
+Source: ros-turbulent-rcutils
+Section: misc
+Priority: extra
+Maintainer: Karsten Knese <karsten@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), python3-empy, ros-turbulent-ament-cmake-gmock, ros-turbulent-ament-cmake-gtest, ros-turbulent-ament-cmake-pytest, ros-turbulent-ament-cmake-ros, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-launch, ros-turbulent-launch-testing, ros-turbulent-launch-testing-ament-cmake, ros-turbulent-osrf-testing-tools-cpp, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-rcutils
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ros-workspace
+Description: Package containing various utility types and functions for C
