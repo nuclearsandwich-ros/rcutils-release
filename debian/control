@@ -1,0 +1,12 @@
+Source: ros-verystable-rcutils
+Section: misc
+Priority: optional
+Maintainer: Karsten Knese <karsten@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), python3-empy, ros-verystable-ament-cmake-gmock, ros-verystable-ament-cmake-gtest, ros-verystable-ament-cmake-pytest, ros-verystable-ament-cmake-ros, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-launch, ros-verystable-launch-testing, ros-verystable-launch-testing-ament-cmake, ros-verystable-osrf-testing-tools-cpp, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-rcutils
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ros-workspace
+Description: Package containing various utility types and functions for C
