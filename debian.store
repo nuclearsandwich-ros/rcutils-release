@@ -1,1 +1,1 @@
-{"base": "f116f25", "parent": "debian/rolling/rcutils", "previous": "2ee478d", "trim": "", "trimbase": ""}
+{"base": "1cd626c", "parent": "debian/humble/rcutils", "previous": "115e0d9", "trim": "", "trimbase": ""}
